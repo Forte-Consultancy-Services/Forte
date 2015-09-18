@@ -1,9 +1,7 @@
-Forte
-=====
+# Forte
 
-Motivation
-==========
+# Motivation
 
-License
-=======
-<a href="https://github.com/Forte-Consultancy-Services/forte/blob/master/LICENSE.md">See LICENSE.</a>
+# License
+
+[See LICENSE](https://github.com/Forte-Consultancy-Services/forte/blob/master/LICENSE.md)
