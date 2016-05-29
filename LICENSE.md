@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Forte Consulting Services. All Rights Reserved.
+Copyright (c) 2015 Forte Consultancy Services. All Rights Reserved.
 
 No posts, images, videos, and audio clips are to be copied and distributed without the authors' or copyright holders' permission. All other applications are covered by the MIT license.
 
