@@ -45,7 +45,10 @@
 
 
 <body>
-   <div class="container-fluid">
+   <!-- Center page content with a fixed width regardless of the size of device (browser)-->
+   <div class="container"></div>
+   <!-- Enable page content to cover full width of the device (browser) -->
+   <div class="container-fluid"></div>
      <header class="body">
 
      </header>
@@ -67,23 +70,27 @@
        <div class="col s1">11</div>
        <div class="col s1">12</div>
      </div>
+     <!-- Each column has a width of 4 columns on a small device -->
      <div class="row">
        <div class="col s4"></div>
        <div class="col s4"></div>
        <div class="col s4"></div>
      </div>
+     <!-- Responsive columns based on the size of device (browser) -->
      <div class="row">
        <div class="col s12"><p>s12</p></div>
        <div class="col s12 m4 l2"><p>s12 m4</p></div>
        <div class="col s12 m4 l8"><p>s12 m4</p></div>
        <div class="col s12 m4 l2"><p>s12 m4</p></div>
      </div>
+     <!-- Responsive columns based on the size of device (browser) -->
      <div class="row">
        <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
        <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
        <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
        <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
      </div>
+        
      <!-- Bootstrap -->
      <!-- Stacked columns on mobile devices and tablet devices (extra small to small) before becoming horizontal columns on desktop devices (medium)-->
      <div class="row">
@@ -118,14 +125,13 @@
      <footer class="body">     
 
      </footer>
-   </div>
 
    <!-- Embeds javascripts within the html document -->
    <script type="text/javascript" media="screen"></script>
 
    <!-- Links external files to html documents -->
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" integrity="sha256-lVmbGVbzHBkNHCUK0y+z2AyJei/v7jSNYppXTcq2FtU=" crossorigin="anonymous"></script>
